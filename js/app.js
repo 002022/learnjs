@@ -342,8 +342,16 @@ function add(a,b){
     return a+b;
 }
 
-console.log(add(2,3))
+console.log(add(2,3)); 
 
+car={
+    name:"tesla motor",
+    color:"skyblue",
+    mycay: function(){
+       return console.log('My dream car is a +'name'+ with a +'color'+ color');
+    } 
+}
+car.mycar();
 
 
 
