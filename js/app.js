@@ -330,6 +330,14 @@ function  add(a,b){
 }
 
 console.log(add("3", 2))
+*
+* function add(a,b){
+
+    return a+b;
+}
+
+console.log(add(2,3));
+
 
 * */
 
@@ -337,21 +345,15 @@ console.log(add("3", 2))
 
 //fetch APi
 
-function add(a,b){
 
-    return a+b;
-}
-
-console.log(add(2,3)); 
-
-car={
+const car={
     name:"tesla motor",
     color:"skyblue",
-    mycay: function(){
-       return console.log('My dream car is a +'name'+ with a +'color'+ color');
-    } 
+    mycar: function(){
+        return this.name +' with a ' +this.color +' color is my dream car.'
+    }
 }
-car.mycar();
+console.log(car.mycar());
 
 
 
